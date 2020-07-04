@@ -1,6 +1,7 @@
 import React from "react";
 import { boilerPlateData } from "./data.js";
 import Card from "./components/Card"
+import "./App.css";
 
 export default () => {
   const generateCardsFromData = collection => {
@@ -16,5 +17,9 @@ export default () => {
     });
   };
 
-  return <>{generateCardsFromData(boilerPlateData)}</>;
+  return (
+    <div className="main">
+      {generateCardsFromData(boilerPlateData)}
+    </div>
+  );
 };
