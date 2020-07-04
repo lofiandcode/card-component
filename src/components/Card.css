@@ -1,0 +1,14 @@
+.card {
+    border-radius: 10px;
+    background-color: #90D4A8;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+h3 {
+    text-align: center;
+}
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
